@@ -37,7 +37,13 @@
 //     println!("The value of x is: {x}");
 // }
 
-fn main() {
-    let mut spaces = "   ";
-    spaces = spaces.len();
-}
+// fn main() {
+//     let mut spaces = "   ";
+//     spaces = spaces.len();
+// }
+
+
+// 3.2 Data Types
+// fn main() {
+//     let guess = "42".parse().expect("Not a number!");
+// }
