@@ -1,11 +1,9 @@
 fn main() {
-    let condition = true;
-    // let number = if condition { 5 } else { 6 };
-    let number = if condition {
-        5
-    } else {
-        6
-    };
+    let reference_to_nothing = dangle();
+}
 
-    println!("The value of number is: {number}");
+fn dangle() -> &String {
+    let s = String::from("hello");
+
+    &s
 }
